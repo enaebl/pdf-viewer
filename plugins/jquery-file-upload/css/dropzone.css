@@ -1,0 +1,23 @@
+
+#dropzone {
+    border: 2px dashed lightgray;
+    line-height: 50px;
+    text-align: center;
+    min-height: 20px;
+    padding: 19px;
+    margin: 0 auto 20px auto;
+}
+
+#dropzone.in {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#dropzone.fade {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    opacity: 1;
+}
